@@ -18,10 +18,10 @@ const App = () => {
     <BrowserRouter>
     <nav>
     <ul className="mainNav">
-    <li><Link to="/" className="homeLink" id="here" />Home</li>
-    <li><Link to="/members" className="featureLink" />Members</li>
-    <li><Link to="/notebook" className="expertLink" />Engineering Notebook</li>
-    <li><Link to="/quiz/" className="quizLink" />Outreach</li>
+    <li className='homeLink' id="here"><Link to="/"/>Home</li>
+    <li className="homeLink"><Link to="/members" />Members</li>
+    <li><Link to="/notebook" />Engineering Notebook</li>
+    <li><Link to="/quiz/" />Outreach</li>
     {/* <!-- <li><a href="/projects/" class="projectLink">Teams</a></li> --> */}
   </ul>
   </nav>
