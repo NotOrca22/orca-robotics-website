@@ -41,7 +41,9 @@
   text-align: center;
   background: #1abc9c;
   color: white;
+  height: 30%;
   font-size: 30px;
+  margin-bottom: 30px;
 }
 .mainNav {
   margin: 0;
