@@ -1,7 +1,9 @@
+import orca from "./orca.png";
 const Header = () => {
     return (
         <div className="header">
-            <h1>Hi, Orca is better than you, give him Skyblock Coins or you're bad.</h1>
+            <img className="reduced" alt="" src={orca}></img>
+            <h1 className="topText">Team 21587 Orca Robotics</h1>
         </div>
     )
 }
