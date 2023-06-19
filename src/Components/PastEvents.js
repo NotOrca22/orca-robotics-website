@@ -4,7 +4,7 @@ const PastEvents = () => {
             <div className="event1 eventTop">
                 <h1>Mechanicsville, VA Qualifier</h1>
                 <li>5-0 in Qualifying Matches, 2nd Seed Captain</li>
-                <li>Captain of Semi-Finalist Alliance, 2nd Highest OPR</li>
+                <li>Captain of Semi-Finalist Alliance with 11112 and 8535, 2nd Highest OPR of 106</li>
             </div>
             <div className="event2">
                 <h1>DC Qualifier</h1>

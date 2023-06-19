@@ -96,7 +96,7 @@ const App = () => {
       <li className='homeLink' id="here"><Link to="/">Home</Link></li>
       
       <li className="homeLink"><Link to="/robots">Robots</Link></li>
-      <li><Link to="/portfolio">Engineering Notebook</Link></li>
+      <li><Link to="/portfolio">Portfolio</Link></li>
       <li><Link to="/events">Events</Link></li>
       <li id="homepageDrop"><MemberDropDown /></li>
       
