@@ -1,14 +1,25 @@
+import { Link } from "react-router-dom"
 import MemberDropDown from "./MemberDropDown"
-const Member = ({name, intro, img}) => {
+const Member = ({name, photo, intro, hidden}) => {
     return (
-        <div>
+        <div className={`${hidden ? 'noOverflow' : ''}`}>
             
             <div className="memberPage">
                 {/* <MemberDropDown /> */}
-                <h1>{name}</h1>
-                <img className="image" alt="" src={img}></img>
-                <p>{intro}</p>
-            </div>
+                
+                <img className="image" alt="" src={photo}></img>
+                {/* <p>{intro}</p> */}
+                <Link
+  to="/member"
+  state={{
+    name: name,
+    pic: photo,
+    intro: intro
+  }}
+  className="styledLink"
+>
+  {name}
+</Link>            </div>
         </div>
     )
 }

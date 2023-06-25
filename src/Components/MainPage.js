@@ -7,10 +7,10 @@ import bae from "../bae.png";
 import techaction from "../techaction.png";
 import deka from "../deka.png";
 import gobilda from "../gobilda.png";
-const MainPage = () => {
-  
+const MainPage = ({hidden}) => {
+    // console.log(hidden);
     return (
-    <div className="mainContent">
+    <div className={`mainContent ${hidden ? 'noOverflow' : ''}`}>
     <div className="text">
         
         <div className="past">

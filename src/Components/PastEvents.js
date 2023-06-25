@@ -1,6 +1,6 @@
-const PastEvents = () => {
+const PastEvents = ({hidden}) => {
     return (
-        <div className="events">
+        <div className={`events ${hidden ? 'noOverflow' : ''}`}>
             <div className="event1 eventTop">
                 <h1>Mechanicsville, VA Qualifier</h1>
                 <li>5-0 in Qualifying Matches, 2nd Seed Captain</li>

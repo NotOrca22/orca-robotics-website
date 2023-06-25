@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Navigate } from "react-router-dom";
 import axios from "axios";
 
-const LoginForm = () => {
+const LoginForm = ({hidden}) => {
     const [name, setName] = useState(" ")
     const [password, setPassword] = useState(" ")
     const [nav, setNav] = useState(false)
@@ -21,7 +21,7 @@ const LoginForm = () => {
     }
     return (
         <div className="page-container">
-        <main className="formSignin">
+        <main className={`formSignin ${hidden ? 'noOverflow' : ''}`}>
             <form>
                 <p>Email: <input type="email" placeholder="orca@orca.com" onChange={e => setName(e.target.value)}></input></p>
                 <p>Password: <input type="password"></input></p>

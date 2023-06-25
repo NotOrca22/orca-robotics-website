@@ -111,22 +111,26 @@ img {
 .image {
   height: 150px;
 }
-.group {
-  display: flex;
-  justify-content: center;
-}
+
 .portfolio {
   
   display: block;
   border: 0;
   justify-content: center;
-  width: 55%;
+  width: 55vw;
   margin: 0 auto;
   height: 60vh;
   margin-top: 15px;
 }
-.empty-container {
-  margin-bottom: 60px;
+@media screen and (max-width: 800px) {
+  .empty-container {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 800px) {
+  .empty-container {
+    margin-bottom: 60px;
+  }
 }
 .content {
   flex: 1

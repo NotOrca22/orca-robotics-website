@@ -55,30 +55,176 @@ div {
   flex-direction: row;
   height: 10%;
   min-height: 10%;
+  font-size: 6px;
+  /* position: /; */
+  width: 100vw;
+  /* margin-bottom: 30px; */
+}
+@media screen and (min-width: 250px) {
+  .header {
+  /* padding: 60px; */
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 10%;
+  min-height: 10%;
+  font-size: 8px;
+  /* position: /; */
+  width: 100vw;
+  /* margin-bottom: 30px; */
+}
+}
+@media screen and (min-width: 300px) {
+  .header {
+  /* padding: 60px; */
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 10%;
+  min-height: 10%;
+  font-size: 9px;
+  /* position: /; */
+  width: 100vw;
+  /* margin-bottom: 30px; */
+}
+}
+@media screen and (min-width: 335px) {
+  .header {
+  /* padding: 60px; */
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 10%;
+  min-height: 10%;
+  font-size: 11px;
+  /* position: /; */
+  width: 100vw;
+  /* margin-bottom: 30px; */
+}
+}
+@media screen and (min-width: 410px) {
+  .header {
+  /* padding: 60px; */
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 10%;
+  min-height: 10%;
+  font-size: 14px;
+  /* position: /; */
+  width: 100vw;
+  /* margin-bottom: 30px; */
+}
+}
+@media screen and (min-width: 700px) {
+  .header {
+  /* padding: 60px; */
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 10%;
+  min-height: 10%;
+  font-size: 16px;
+  /* position: /; */
+  width: 100vw;
+  /* margin-bottom: 30px; */
+}
+}
+@media screen and (min-width: 900px) {
+  .header {
+  /* padding: 60px; */
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 10%;
+  min-height: 10%;
+  font-size: 18px;
+  /* position: /; */
+  width: 100vw;
+  /* margin-bottom: 30px; */
+}
+}
+@media screen and (min-width: 1000px) {
+  .header {
+  /* padding: 60px; */
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 10%;
+  min-height: 10%;
+  font-size: 24px;
+  /* position: /; */
+  width: 100vw;
+  /* margin-bottom: 30px; */
+}
+}
+@media screen and (min-width: 1180px) {
+  .header {
+  /* padding: 60px; */
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 10%;
+  min-height: 10%;
   font-size: 30px;
   /* position: /; */
   width: 100vw;
   /* margin-bottom: 30px; */
 }
+}
+
 .header-full-width {
   width: 100vw; /* Set the width to match the header on other pages */
 }
+@media screen and (max-width: 800px) {
 .mainNav {
-  margin: 0;
-  padding: 0;
-  /* padding-bottom: 10px; */
-  padding-top: 10px;
-  padding-bottom: 10px;
-  list-style: none;
-  display: flex;
-  justify-content: left;
-  /* border-left: 1px dashed #999999; */
-  overflow: hidden;
-  align-self: left;
-  position: absolute;
-  align-items: left;
-  text-align: center;
-  /* background-color: rgb(250, 50, 50); */
+  display: none;
+  height: 0;
+  width: 0;
+}
+}
+@media screen and (min-width: 800px) {
+  .mainNav {
+    margin: 0;
+    padding: 0;
+    /* padding-bottom: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    /* border-left: 1px dashed #999999; */
+    overflow: hidden;
+    align-self: left;
+    position: absolute;
+    align-items: left;
+    text-align: center;
+    /* background-color: rgb(250, 50, 50); */
+  }
 }
 .loginNav {
   margin: 0;
@@ -148,7 +294,7 @@ background-position: 0 2px;
   border-left: none; */
   /* border-top: 5px solid #00AA00;
   border-bottom: 5px solid #00AA00; */
-  padding: 7px 5px 7px 30px;
+  padding: 7px 5px 7px 5px;
   display: block;
   /* background-color: #E7E7E7; */
   /* background-image: url(images/nav.png); */
@@ -190,14 +336,23 @@ background-position: 0 2px;
   height: 40px;
   background-color: white;
 }
-
 .reduced {
-  height: 5%;
-  width: 5%;
+  height: 0%;
+  width: 0%;
   margin: 15px;
   padding: 0;
   border: 0;
 }
+@media screen and (min-width: 780px) {
+  .reduced {
+    height: 5%;
+    width: 5%;
+    margin: 15px;
+    padding: 0;
+    border: 0;
+  }
+}
+
 .topText {
   margin: 15px;
   border: 0;
@@ -214,24 +369,45 @@ background-position: 0 2px;
   /* padding: 0 20px; Adjust the padding as needed */
 }
 /* Dropdown Button */
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  width: 120px;
-  text-align: center;
-  border: none;
+@media screen and (max-width: 801px) {
+  .dropbtn {
+    display: none;
+}
+}
+@media screen and (min-width: 800px) {
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+    border: none;
+}
+}
+@media screen and (min-width: 820px) {
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+    border: none;
+}
 }
 .Mdropbtn {
   background-color: #ffffff;
+  display: table-cell;
   color: #090;
   padding: 16px;
   font-size: 16px;
   width: 120px;
   height: 34px;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
   border: none;
 }
 /* The container <div> - needed to position the dropdown content */
@@ -275,12 +451,71 @@ background-position: 0 2px;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
+@media screen and (min-width: 600px) {
+  .rightAlign {
+    position: absolute !important;
+    float: right !important;
+    top: 10px !important;
+    right: 10px !important;
+  }
+}
+@media screen and (min-width: 660px) {
+  .rightAlign {
+    position: absolute !important;
+    float: right !important;
+    top: 10px !important;
+    right: 30px !important;
+  }
+}
+@media screen and (min-width: 820px) {
+  .rightAlign {
+    position: absolute !important;
+    float: right !important;
+    top: 20px !important;
+    right: 50px !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .rightAlign {
+    position: absolute !important;
+    float: right !important;
+    top: 20px !important;
+    right: 50px !important;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .rightAlign {
+    position: absolute !important;
+    float: right !important;
+    top: 25px !important;
+    right: 30px !important;
+  }
+}
+@media screen and (min-width: 1100px) {
 .rightAlign {
   position: absolute !important;
   float: right !important;
   top: 30px !important;
   right: 50px !important;
+}
+}
+.footerText {
+  font-size: 0.75em;
+}
+@media screen and (min-width: 300px) {
+  .footerText {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 420px) {
+  .footerText {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 560px) {
+  .footerText {
+    font-size: 2em;
+  }
 }
 .footer {
   
@@ -401,8 +636,8 @@ background-position: 0 2px;
   padding-bottom: 20px;
 }
 .image {
-  width: 400px;
-  height: 300px;
+  width: 40vw;
+  height: 30vw;
   padding: 30px;
   border-radius: 10px;
   
@@ -471,6 +706,7 @@ background-position: 0 2px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 100vw;
 }
 .eventTop {
   margin-top: 50px;
@@ -489,18 +725,135 @@ background-position: 0 2px;
 .sponsors {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 20px;
   /* margin-bottom: 50px; */
-  height: 25%;
+  /* height: 25%; */
   justify-content: center;
+  /* overflow: ; */
+  /* flex-wrap: wrap; */
+  padding-bottom: 20px;
 }
+/* @media screen and (min-width: 500px) { */
+  
+
+  .sponsors img {
+    width: 15%;
+    /* max-height: 68.7px; */
+    /* max-width: 15; */
+    width: 18vw;
+    height: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  /* } */
+/* @media screen and (min-width: 888px) {
+  
+
 .sponsors img {
   /* width: 15%; */
+  /* max-height: 68.7px;
+  max-width: 200px;
+  width: 135px;
+  height: 47px;
   margin-left: 10px;
-  margin-right: 10px;
-}
+  margin-right: 10px; */
+
 .robot {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.styledLink {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  text-decoration: none;
+}
+#active {
+  background-color: #dd0000 !important;
+}
+@media screen and (max-width: 800px) {
+  .nav {
+    height: 0;
+  }
+}
+@media screen and (min-width: 800px) {
+  .nav {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+.NavButton {
+  background: none;
+  position: absolute;
+  border: none;
+  top: 10px;
+  left: 10px;
+}
+.NavButton2 {
+  /* background: none; */
+  position: absolute;
+  border: none;
+  top: 10px;
+  left: 10px;
+}
+.NavButton img {
+  height: 32px;
+  width: 32px;
+}
+}
+@media screen and (min-width: 799px) {
+  .NavButton {
+    display: none;
+    background: none;
+    position: absolute;
+    border: none;
+    top: 10px;
+    left: 10px;
+  }
+  .NavButton img {
+    height: 32px;
+    width: 32px;
+  }
+  }
+.hiddenNav {
+  /* background-color: white; */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 99999 !important;
+  height: 90vh;
+  text-decoration: none;
+}
+.hiddenLink {
+  /* text-align: left; */
+  background-color: white;
+  width: 100vw;
+  text-align: center;
+  display: block;
+  color: #dd0000;
+  height: 18vh;
+  font-size: 4em;
+  text-decoration: none;
+}
+.NavLink {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+/* .hiddenLink */
+.hiddenLink :hover {
+  background-color: lightgray;
+}
+.noOverflow {
+  overflow: hidden !important;
+  /* background-color: red; */
+  max-height: 0;
 }
