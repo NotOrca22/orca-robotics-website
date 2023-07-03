@@ -1,8 +1,10 @@
 import { useState } from "react"
 import { Navigate } from "react-router-dom";
 import axios from "axios";
-
+import AppContext from "../AppContext";
+import { useContext } from "react";
 const LoginForm = ({hidden}) => {
+    const [state, dispatch] = useContext(AppContext)
     const [name, setName] = useState(" ")
     const [password, setPassword] = useState(" ")
     const [nav, setNav] = useState(false)
@@ -21,7 +23,7 @@ const LoginForm = ({hidden}) => {
     }
     return (
         <div className="page-container">
-        <main className={`formSignin ${hidden ? 'noOverflow' : ''}`}>
+        <main className={`formSignin ${state.hiddenNavIsShowing ? 'noOverflow' : ''}`}>
             <form>
                 <p>Email: <input type="email" placeholder="orca@orca.com" onChange={e => setName(e.target.value)}></input></p>
                 <p>Password: <input type="password"></input></p>

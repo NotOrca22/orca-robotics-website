@@ -774,7 +774,7 @@ background-position: 0 2px;
   color: blue;
   text-decoration: none;
 }
-#active {
+.active {
   background-color: #dd0000 !important;
 }
 @media screen and (max-width: 800px) {
@@ -856,4 +856,12 @@ background-position: 0 2px;
   overflow: hidden !important;
   /* background-color: red; */
   max-height: 0;
+}
+.NotShowing {
+  max-height: 0 !important;
+  font-size: 0 !important;
+}
+.group {
+  display: flex;
+  flex-direction: row;
 }

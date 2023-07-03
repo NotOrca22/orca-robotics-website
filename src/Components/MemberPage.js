@@ -1,10 +1,12 @@
 import { useLocation } from "react-router-dom"
-
+import AppContext from "../AppContext";
+import { useContext } from "react";
 const MemberPage = ({name, pic, intro, hidden}) => {
+    const [state, dispatch] = useContext(AppContext)
     const location = useLocation();
     const data = location.state;
     return (
-        <div className={`${hidden ? 'noOverflow' : ''}`}>
+        <div className={`${state.hiddenNavIsShowing ? 'noOverflow' : ''}`}>
             {/* <MemberDropDown /> */}
             
             <img className="image" alt="" src={data.pic}></img>

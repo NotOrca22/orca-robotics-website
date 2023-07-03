@@ -7,10 +7,13 @@ import bae from "../bae.png";
 import techaction from "../techaction.png";
 import deka from "../deka.png";
 import gobilda from "../gobilda.png";
+import AppContext from "../AppContext";
+import { useContext } from "react";
 const MainPage = ({hidden}) => {
     // console.log(hidden);
+    const [state, dispatch] = useContext(AppContext)
     return (
-    <div className={`mainContent ${hidden ? 'noOverflow' : ''}`}>
+    <div className={`${state.hiddenNavIsShowing ? 'noOverflow' : ''}`}>
     <div className="text">
         
         <div className="past">

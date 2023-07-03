@@ -6,7 +6,7 @@ const Person = ({name, desc, pic}) => {
                 <p>{desc}</p>
             </div>
             <div>
-                <img className="image" alt="" src={pic}></img>
+                <img className="imagee" alt="" src={pic}></img>
             </div>
         </div>
     )
