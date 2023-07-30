@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Orca Robotics</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<style type="text/css">
+		.aboutUs {
+			display: flex;
+			margin-right: 10px;
+			margin-left: 10px;
+			/*			padding: 10px;*/
+			border: solid;
+			border-width: 1px;
+			border-color: rgb(192, 192, 192);
+			background-color: rgb(240, 255, 255);
+			text-align: left;
+			font-family: Segoe UI;
+		}
+
+		.aboutHeading {
+			padding: 10px;
+			/*			background-color: black;*/
+			/*			color: white;*/
+			color: white;
+			background-color: rgb(67, 107, 149);
+			/*background-color: rgb(42,82,190);*/
+		}
+
+		.aboutText {
+			padding: 10px;
+		}
+
+		.about {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.aboutContent {
+			display: flex;
+			flex-direction: row-reverse;
+			/*			background-color: black;*/
+			/*			color: white;*/
+		}
+
+		.teamPhoto1 {
+			float: right;
+			margin: 10px;
+		}
+
+
+		.season {
+			display: flex;
+			margin-top: 1em;
+			margin-right: 10px;
+			margin-left: 10px;
+			border: solid;
+			border-width: 1px;
+			border-color: rgb(192, 192, 192);
+			background-color: rgb(240, 255, 255);
+			text-align: left;
+			font-family: Segoe UI;
+			flex-direction: column;
+		}
+
+		.seasonHeading {
+			color: white;
+			background-color: rgb(67, 107, 149);
+			padding: 10px;
+		}
+
+		.qual1 {
+			background-color: rgb(240, 248, 255);
+			padding: 10px;
+		}
+
+		.qual2 {
+			background-color: rgb(188, 212, 230);
+			padding: 10px;
+		}
+
+		/*
+		.qualDetail {
+			font-style: italic;
+			margin-bottom: 1em;
+		}
+
+		.qualUnderline {
+			border-bottom-color: rgb(228, 68, 36);
+			border-bottom-style: solid;
+			padding-bottom: 0.3em;
+			border-bottom-width: 0.15em;
+		}
+
+		.qualText {
+/*			margin-left: 2em;
+		}
+
+		*/
+		.seasonContent {
+			display: flex;
+			flex-direction: column;
+			/*			padding: 10px;*/
+		}
+
+		footer {
+			background-color: rgb(182, 208, 226);
+			display: flex;
+			flex-direction: column;
+			margin-top: 10px;
+		}
+
+		.columnFooter {
+			display: flex;
+			justify-content: space-around;
+			align-items: flex-start;
+			align-content: center;
+			position: relative;
+			bottom: 0;
+			width: 100%;
+			flex-direction: row;
+		}
+
+		footer div {
+			margin: 10px;
+		}
+
+		footer div a {
+			display: block;
+		}
+	</style>
+</head>
+<!-- <body> -->
+<div>
+	<section class="banner">
+		<div class="bannerLogo">
+			<img src="Logo.svg" alt="logo" width="100">
+		</div>
+		<div class="bannerHeading">
+			<h1>Orca Robotics</h1>
+		</div>
+		<div class="buttons">
+			<button class="logIn">Log In</button>
+			<button class="signUp">Sign Up</button>
+		</div>
+	</section>
+	<nav class="navBar">
+		<a href="website1.html">Home</a>
+		<a href="robotWebsite.html">Robots</a>
+		<a href="">Outreach</a>
+		<a href="teamMembers.html">Members</a>
+		<a href="events.html">Events</a>
+		<a href="aboutUs.html" class="active">About Us</a>
+	</nav>
+	<div class="content">
+		<br>
+		<section class="aboutUs">
+			<div class="about">
+				<h3 class="aboutHeading">Who We Are</h3>
+				<div class="aboutContent">
+					<img src="teamPhoto1.jpg" class="teamPhoto1" alt="team photo" width="20%">
+					<p class="aboutText">
+						We are a robotics team consisting of six people in middle school and high school. Our youngest
+						member is in 7th grade and our oldest is in 9th. Our team was created in the Fall of 2022,
+						bringing together variety of people who all shared one characteristic; the desire to learn.
+						Since then, our team has put in countless hours of hard work to make our current achievements
+						possible.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="season">
+			<div>
+				<h3 class="seasonHeading">2022-2023 Season Achievements</h3>
+			</div>
+			<div class="seasonContent">
+				<div class="qual1">
+					<h4>First Qualifier: Mechanicsville, VA</h4>
+					<!-- <p class="qualDetail"><span class="qualUnderline">First Qua</span>lifier</p> -->
+					<p class="qualText">
+						In the qualification rounds, we placed second. We were the alliance captain of our own
+						alliiance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+						ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+						in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+						cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="qual2">
+					<h4>Second Qualifier: DC</h4>
+					<p>This qualifier was the one we advanced to States off of. We got first place in the qualification
+						rounds and proceeded to get first place in the elimination rounds as well with our alliance,
+						whom we were alliance captain of. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+						do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius vel pharetra vel turpis
+						nunc eget lorem dolor sed. Pellentesque eu tincidunt tortor aliquam nulla. Amet risus nullam
+						eget felis eget nunc. Aliquam sem fringilla ut morbi tincidunt augue interdum. Sed egestas
+						egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Fermentum posuere urna
+						nec tincidunt praesent semper. Penatibus et magnis dis parturient montes nascetur ridiculus mus
+						mauris. Nunc sed velit dignissim sodales. Vitae sapien pellentesque habitant morbi. Et egestas
+						quis ipsum suspendisse ultrices gravida. Netus et malesuada fames ac turpis egestas integer eget
+						aliquet. Egestas congue quisque egestas diam in arcu cursus euismod. Libero nunc consequat
+						interdum varius sit amet mattis. Mattis nunc sed blandit libero. Pulvinar sapien et ligula
+						ullamcorper. Sagittis purus sit amet volutpat. Scelerisque mauris pellentesque pulvinar
+						pellentesque. Est sit amet facilisis magna etiam. Nunc lobortis mattis aliquam faucibus. Posuere
+						lorem ipsum dolor sit amet consectetur adipiscing. Et tortor at risus viverra adipiscing at. Et
+						sollicitudin ac orci phasellus egestas. Ullamcorper malesuada proin libero nunc consequat
+						interdum. Scelerisque viverra mauris in aliquam sem fringilla ut. Enim nulla aliquet porttitor
+						lacus luctus accumsan tortor posuere ac. Amet consectetur adipiscing elit duis tristique
+						sollicitudin. Augue mauris augue neque gravida. Et leo duis ut diam quam nulla.</p>
+				</div>
+				<div class="qual1">
+					<h4>Third Qualifier: Laurel, MD</h4>
+					<p>In this qualifier Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Varius vel pharetra vel turpis nunc eget lorem
+						dolor sed. Pellentesque eu tincidunt tortor aliquam nulla. Amet risus nullam eget felis eget
+						nunc. Aliquam sem fringilla ut morbi tincidunt augue interdum. Sed egestas egestas fringilla
+						phasellus faucibus scelerisque eleifend donec pretium. Fermentum posuere urna nec tincidunt
+						praesent semper. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. Nunc
+						sed velit dignissim sodales. Vitae sapien pellentesque habitant morbi. Et egestas quis ipsum
+						suspendisse ultrices gravida. Netus et malesuada fames ac turpis egestas integer eget aliquet.
+						Egestas congue quisque egestas diam in arcu cursus euismod. Libero nunc consequat interdum
+						varius sit amet mattis. Mattis nunc sed blandit libero. Pulvinar sapien et ligula ullamcorper.
+						Sagittis purus sit amet volutpat. Scelerisque mauris pellentesque pulvinar pellentesque. Est sit
+						amet facilisis magna etiam. Nunc lobortis mattis aliquam faucibus. Posuere lorem ipsum dolor sit
+						amet consectetur adipiscing. Et tortor at risus viverra adipiscing at. Et sollicitudin ac orci
+						phasellus egestas. Ullamcorper malesuada proin libero nunc consequat interdum. Scelerisque
+						viverra mauris in aliquam sem fringilla ut. Enim nulla aliquet porttitor lacus luctus accumsan
+						tortor posuere ac. Amet consectetur adipiscing elit duis tristique sollicitudin. Augue mauris
+						augue neque gravida. Et leo duis ut diam quam nulla.</p>
+				</div>
+				<div class="qual2">
+					<h4>States</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Varius vel pharetra vel turpis nunc eget lorem dolor sed.
+						Pellentesque eu tincidunt tortor aliquam nulla. Amet risus nullam eget felis eget nunc. Aliquam
+						sem fringilla ut morbi tincidunt augue interdum. Sed egestas egestas fringilla phasellus
+						faucibus scelerisque eleifend donec pretium. Fermentum posuere urna nec tincidunt praesent
+						semper. Penatibus et magnis dis parturient montes nascetur ridiculus mus mauris. Nunc sed velit
+						dignissim sodales. Vitae sapien pellentesque habitant morbi. Et egestas quis ipsum suspendisse
+						ultrices gravida. Netus et malesuada fames ac turpis egestas integer eget aliquet. Egestas
+						congue quisque egestas diam in arcu cursus euismod. Libero nunc consequat interdum varius sit
+						amet mattis. Mattis nunc sed blandit libero. Pulvinar sapien et ligula ullamcorper. Sagittis
+						purus sit amet volutpat. Scelerisque mauris pellentesque pulvinar pellentesque. Est sit amet
+						facilisis magna etiam. Nunc lobortis mattis aliquam faucibus. Posuere lorem ipsum dolor sit amet
+						consectetur adipiscing. Et tortor at risus viverra adipiscing at. Et sollicitudin ac orci
+						phasellus egestas. Ullamcorper malesuada proin libero nunc consequat interdum. Scelerisque
+						viverra mauris in aliquam sem fringilla ut. Enim nulla aliquet porttitor lacus luctus accumsan
+						tortor posuere ac. Amet consectetur adipiscing elit duis tristique sollicitudin. Augue mauris
+						augue neque gravida. Et leo duis ut diam quam nulla.</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="columnFooter">
+			<div>
+				<h4>About Us</h4>
+				<a href="">About Us</a>
+				<a href="">Our Goal</a>
+				<a href="">More Stuff</a>
+			</div>
+			<div>
+				<h4>Contact Us</h4>
+				<a href="">Email</a>
+				<a href="">Form</a>
+			</div>
+			<div>
+				<h4>Social Media</h4>
+				<a href="">Instagram</a>
+				<a href="">Facebook</a>
+				<a href="">Youtube</a>
+				<a href="">Twitter</a>
+			</div>
+		</div>
+		<div class="siteInfo">
+			<section>
+				<a href="">Orca Robotics</a>
+				<div></div>
+				<img src="">
+				<img src="">
+				<img src="">
+				<img src="">
+			</section>
+		</div>
+	</footer>
+</div>
+</body>
+
+</html>
