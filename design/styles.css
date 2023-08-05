@@ -140,6 +140,11 @@ footer {
 	display: flex;
 	flex-direction: column;
 	margin-top: 10px;
+	font-family: Segoe UI;
+}
+
+.logoName {
+	font-family: serif;
 }
 
 .columnFooter {
@@ -153,12 +158,47 @@ footer {
 	flex-direction: row;
 }
 
+.columnFooterLogo {
+	flex: 0;
+	padding-right: 5em;
+	border-right: solid;
+	border-right-color: rgb(54,69,79);
+	border-right-width: 1px;
+}
+
+.socialMediaLogo {
+	/* width: 30px; */
+	height: 30px;
+	margin-left: 0.5em; 
+	margin-right: 0.5em;
+	/* flex: 2; */
+}
+
+.socialMediaContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 1em;
+}
+
 footer div {
 	margin: 10px;
 }
 
 footer div a {
 	display: block;
+	color: black;
+	text-decoration: none;
+	transition: color 0.15s;
+}
+
+footer div a:hover {
+	color: white;
 }
 
 .between {
@@ -166,4 +206,301 @@ footer div a {
 	border-bottom-style: solid;
 	padding-bottom: 0.3em;
 	border-bottom-width: 0.15em;
+}
+
+.footerLogo {
+	width: 100px;
+}
+
+.highlightSeason {
+	font-size: 1.2em;
+}
+
+.highlightHeading {
+	margin-bottom: 1em;
+}
+
+.member-odd {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(220, 220, 220);
+	background-color: rgb(230, 245, 245);
+	text-align: left;
+	font-family: Segoe UI;
+	box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
+}
+
+.member-even {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(220, 220, 220);
+	background-color: rgb(230, 245, 245);
+	text-align: right;
+	font-family: Segoe UI;
+	box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
+}
+
+.imageCW {
+	float: left;
+	margin-right: 10px;
+	height: 266px;
+}
+
+.member1CW-2 {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.imageSW {
+	float: right;
+	margin-left: 10px;
+	height: 266px;
+}
+
+.name {
+	color: rgb(0, 0, 0);
+	/*			font-weight: normal;*/
+}
+
+.role {
+	font-style: italic;
+	margin-bottom: 2em;
+}
+
+.container {
+	display: flex;
+	margin-right: 10px;
+	margin-left: 10px;
+	/*			padding: 10px;*/
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(192, 192, 192);
+	background-color: rgb(240, 255, 255);
+	text-align: left;
+	font-family: Segoe UI;
+	flex-direction: column;
+	margin-bottom: 1em;
+}
+
+.heading {
+	padding: 10px;
+	color: white;
+	background-color: rgb(67, 107, 149);
+}
+
+.textContainer {
+	padding: 10px;
+}
+
+.bulletPoint {
+	margin-left: 1em;
+	margin-right: 0.5em;
+}
+
+.event1 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
+}
+
+.date {
+	background-color: rgb(152, 157, 170);
+	color: white;
+	flex-grow: 0;
+	padding: 1em;
+	text-align: center;
+	font-size: 1em;
+	min-width: 154px;
+}
+
+.description {
+	float: right;
+	background-color: rgb(228, 241, 255);
+	flex-grow: 1;
+	padding: 1em;
+}
+
+.overview {
+	padding-bottom: 0.2em;
+}
+
+.viewDetails {
+	/* margin-top: 0.2em; */
+	background-color: azure;
+	padding: 0.1em;
+	text-decoration: none;
+
+}
+
+.sponsorContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sponsorImage {
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 0;
+	margin: 1em;
+	max-height: 200px;
+	max-width: 400px;
+}
+
+.seasonContent {
+	display: flex;
+	flex-direction: column;
+}
+
+.aboutUs {
+	display: flex;
+	margin-right: 10px;
+	margin-left: 10px;
+	/*			padding: 10px;*/
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(192, 192, 192);
+	background-color: rgb(240, 255, 255);
+	text-align: left;
+	font-family: Segoe UI;
+}
+
+.aboutHeading {
+	padding: 10px;
+	/*			background-color: black;*/
+	/*			color: white;*/
+	color: white;
+	background-color: rgb(67, 107, 149);
+	/*background-color: rgb(42,82,190);*/
+}
+
+.aboutText {
+	padding: 10px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
+	/* border-color: rgb(220, 220, 220); */
+	/* border: solid; */
+	/* border-width: 0.5px; */
+}
+
+.goal {
+	margin-top: 1em;
+	display: flex;
+	margin-right: 10px;
+	margin-left: 10px;
+	/*			padding: 10px;*/
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(192, 192, 192);
+	background-color: rgb(240, 255, 255);
+	text-align: left;
+	font-family: Segoe UI;
+}
+
+
+.teamPhoto1 {
+	float: right;
+	margin: 10px;
+}
+
+
+.seasonContainer {
+	display: flex;
+	margin-top: 1em;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(192, 192, 192);
+	background-color: rgb(240, 255, 255);
+	text-align: left;
+	font-family: Segoe UI;
+	flex-direction: column;
+	box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
+}
+
+.seasonHeading {
+	color: white;
+	background-color: rgb(67, 107, 149);
+	padding: 10px;
+}
+
+.qual1 {
+	background-color: rgb(240, 248, 255);
+	padding: 10px;
+}
+
+.qual2 {
+	background-color: rgb(188, 212, 230);
+	padding: 10px;
+}
+
+.year {
+	font-size: 1em;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+.robot {
+	padding: 1em;
+	display: flex;
+	flex-direction: row;
+}
+
+.robotImage {
+	flex-grow: 1;
+}
+
+.robotText {
+	flex-grow: 1;
+	margin-right: 0.5em;
+}
+
+.heading {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+
+.season {
+	background-color: rgb(240, 255, 255);
+	/* padding: 1em; */
+	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+	box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
+	margin-bottom: 2em;
+	display: flex;
+	flex-direction: column;
+	margin-top: 1em;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(192, 192, 192);
+}
+
+.seasonHeadings {
+	background-color: rgb(167, 199, 231);
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	/* margin-bottom: 1em; */
+}
+
+.outreachSeason {
+	font-size: 1.5em;
 }

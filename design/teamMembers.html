@@ -5,61 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Orca Robotics</title>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
-	<style type="text/css">
-		.member-odd {
-			display: flex;
-			flex-direction: row;
-			padding: 10px;
-			/* border: solid; */
-			/* border-width: 1px; */
-			/* border-color: rgb(192,192,192); */
-			background-color: rgb(230,245,245);
-			text-align: left;
-			font-family: Segoe UI;
-			box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
-		}
 
-		.member-even {
-			display: flex;
-			flex-direction: row;
-			padding: 10px;
-			/* border: solid; */
-			/* border-width: 1px; */
-			/* border-color: rgb(192,192,192); */
-			background-color: rgb(230,245,245);
-			text-align: right;
-			font-family: Segoe UI;
-			box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
-		}
-
-		.imageCW {
-			float: left;
-			margin-right: 10px;
-			height: 266px;
-		}
-
-		.member1CW-2 {
-			flex-grow: 1;
-			display: flex;
-			flex-direction: column;
-		}
-
-		.imageSW {
-			float: right;
-			margin-left: 10px;
-			height: 266px;
-		}
-
-		.name {
-			color: rgb(0,0,0);
-/*			font-weight: normal;*/
-		}
-
-		.role {
-			font-style: italic;
-			margin-bottom: 2em;
-		}
-	</style>
 </head>
 <body>
 	<div>
@@ -78,9 +24,10 @@
 		<nav class="navBar">
 			<a href="website1.html">Home</a>
 			<a href="robotWebsite.html">Robots</a>
-			<a href="">Outreach</a>
+			<a href="outreach.html">Outreach</a>
 			<a href="teamMembers.html" class="active">Members</a>
 			<a href="events.html">Events</a>
+    	    <a href="sponsor.html">Sponsor</a>
 			<a href="aboutUs.html">About Us</a>
 		</nav>
 		<div class="content">
@@ -153,37 +100,46 @@
 		</section>
 		</div>
 		<footer>
-		<div class="columnFooter">
-			<div>
-				<h4>About Us</h4>
-				<a href="">About Us</a>
-				<a href="">Our Goal</a>
-				<a href="">More Stuff</a>
+			<div class="columnFooter">
+				<div class="columnFooterLogo">
+					<a href="website1.html"><img src="Logo.svg" class="footerLogo"/></a>
+					<h1 class="logoName">Orca Robotics</h1>
+				</div>
+				<div>
+					<h4>About Us</h4>
+					<a href="aboutUs.html">About</a>
+					<a href="robotWebsite.html">Robots</a>
+					<a href="outreach.html">Outreach</a>
+					<a href="teamMembers.html">Team Members</a>
+					<a href="events.html">Events</a>
+				</div>
+				<div>
+					<h4>Contact Us</h4>
+					<a href="mailto:orcarobotics2022@gmail.com">Email</a>
+					<a href="">Form</a>
+					<a href="sponsor.html">Sponsor Us</a>
+				</div>
+				<div>
+					<h4>Social Media</h4>
+					<a href="https://www.instagram.com/orca_robotics_21587/">Instagram</a>
+					<a href="">Facebook</a>
+					<a href="">Youtube</a>
+					<a href="">Twitter</a>
+				</div>
 			</div>
-			<div>
-				<h4>Contact Us</h4>
-				<a href="">Email</a>
-				<a href="">Form</a>
-			</div>
-			<div>
-				<h4>Social Media</h4>
-				<a href="">Instagram</a>
-				<a href="">Facebook</a>
-				<a href="">Youtube</a>
-				<a href="">Twitter</a>
-			</div>
-		</div>
 			<div class="siteInfo">
-				<section>
-				<a href="">Orca Robotics</a>
-				<div></div>
-				<img src="">
-				<img src="">
-				<img src="">
-				<img src="">
+				<section class="socialMediaContainer">
+						<a href="https://www.instagram.com/orca_robotics_21587/"><img class="socialMediaLogo" src="instagram.svg"></a>
+						<a href=""><img class="socialMediaLogo" src="facebook.svg"></a>
+						<a href=""><img class="socialMediaLogo" src="youtube.svg"></a>
+						<a href=""><img class="socialMediaLogo" src="twitter.svg"></a>
+				</section>
+				<section class="copyright">
+					<p>&copy; Orca Robotics 2023</p>
 				</section>
 			</div>
-		</footer>
+			
+			</footer>
 	</div>
 </body>
 </html>

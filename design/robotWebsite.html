@@ -6,58 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Orca Robotics</title>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
-	<style type="text/css">
-		.season {
-			background-color: rgb(217, 241, 241);
-			/* padding: 1em; */
-			/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-			box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
-			margin-bottom: 2em;
-			display: flex;
-			flex-direction: column;
-		}
-		
-		.seasonHeading {
-			background-color: rgb(167, 199, 231);
-			padding: 1em;
-			display: flex;
-			flex-direction: column;
-			/* margin-bottom: 1em; */
-		}
-
-		.year {
-			font-size: 1em;
-			font-style: italic;
-			margin-bottom: 1em;
-		}
-
-		.robot {
-			padding: 1em;
-			display: flex;
-			flex-direction: row;
-		}
-
-		.robotImage {
-			flex-grow: 1;
-		}
-
-		.robotText {
-			flex-grow: 1;
-			margin-right: 0.5em;
-		}
-
-		.heading {
-			padding-left: 1em;
-			padding-right: 1em;
-		}
-
-	</style>
 </head>
-<!-- <body> -->
+<body>
 <div>
 	<section class="banner">
 		<div class="bannerLogo">
-			<img src="Logo.svg" alt="logo" width="100">
+			<img src="Logo.svg" alt="logo" width="100"/>
 		</div>
 		<div class="bannerHeading">
 			<h1>Orca Robotics</h1>
@@ -70,14 +24,15 @@
 	<nav class="navBar">
 		<a href="website1.html">Home</a>
 		<a href="robotWebsite.html" class="active">Robots</a>
-		<a href="">Outreach</a>
+		<a href="outreach.html">Outreach</a>
 		<a href="teamMembers.html">Members</a>
 		<a href="events.html">Events</a>
+        <a href="sponsor.html">Sponsor</a>
 		<a href="aboutUs.html">About Us</a>
 	</nav>
 	<div class="content">
-		<div class="season">
-			<section class="seasonHeading">
+		<div class="seasonContainer">
+			<section class="seasonHeadings">
 				<h1 class="seasonName">POWERPLAY</h1>
 				<p class="year"><span class="between">2022 &#183; 202</span>3</p>
 				<p>This was our first season in FTC, so it was very exciting for us. We hadn't established a clear process for design at the start, but eventually figured out the best way for us to design a robot. We would build one, test it out, locate the shortcomings, and then attempt to make a better robot. You can find the season introduction video <a href="https://www.youtube.com/watch?v=HsitvZ0JaDc&ab_channel=FIRSTTechChallenge">here</a>.</p>
@@ -96,12 +51,12 @@
 					</p>
 				</div>
 				<div class="robotImage">
-					<img src="robotV3.jpg"  alt="first robot" width="300">
+					<img src="robotV3.jpg"  alt="first robot" width="300"/>
 				</div>
 			</section>
 		</div>
-		<div class="season">
-			<section class="seasonHeading">
+		<div class="seasonContainer">
+			<section class="seasonHeadings">
 				<h1 class="seasonName">UNKNOWN</h1>
 				<p class="year"><span class="between">2023 &#183; 202</span>4</p>
 				<p>Our Strategy was similar to our last season, but we were more efficient.You can find the season introduction video <a href="https://www.youtube.com/watch?v=HsitvZ0JaDc&ab_channel=FIRSTTechChallenge">here</a>.</p>
@@ -118,43 +73,52 @@
 					</p>
 				</div>
 				<div class="robotImage">
-					<img src="placeholder3.jpg"  alt="first robot" width="300">
+					<img src="placeholder3.jpg"  alt="first robot" width="300"/>
 				</div>
 			</section>
 		</div>
 	</div>
 	<footer>
 		<div class="columnFooter">
+			<div class="columnFooterLogo">
+				<a href="website1.html"><img src="Logo.svg" class="footerLogo"/></a>
+				<h1 class="logoName">Orca Robotics</h1>
+			</div>
 			<div>
 				<h4>About Us</h4>
-				<a href="">About Us</a>
-				<a href="">Our Goal</a>
-				<a href="">More Stuff</a>
+				<a href="aboutUs.html">About</a>
+				<a href="robotWebsite.html">Robots</a>
+				<a href="outreach.html">Outreach</a>
+				<a href="teamMembers.html">Team Members</a>
+				<a href="events.html">Events</a>
 			</div>
 			<div>
 				<h4>Contact Us</h4>
-				<a href="">Email</a>
+				<a href="mailto:orcarobotics2022@gmail.com">Email</a>
 				<a href="">Form</a>
+				<a href="sponsor.html">Sponsor Us</a>
 			</div>
 			<div>
 				<h4>Social Media</h4>
-				<a href="">Instagram</a>
+				<a href="https://www.instagram.com/orca_robotics_21587/">Instagram</a>
 				<a href="">Facebook</a>
 				<a href="">Youtube</a>
 				<a href="">Twitter</a>
 			</div>
 		</div>
 		<div class="siteInfo">
-			<section>
-				<a href="">Orca Robotics</a>
-				<div></div>
-				<img src="">
-				<img src="">
-				<img src="">
-				<img src="">
+			<section class="socialMediaContainer">
+					<a href="https://www.instagram.com/orca_robotics_21587/"><img class="socialMediaLogo" src="instagram.svg"></a>
+					<a href=""><img class="socialMediaLogo" src="facebook.svg"></a>
+					<a href=""><img class="socialMediaLogo" src="youtube.svg"></a>
+					<a href=""><img class="socialMediaLogo" src="twitter.svg"></a>
+			</section>
+			<section class="copyright">
+				<p>&copy; Orca Robotics 2023</p>
 			</section>
 		</div>
-	</footer>
+		
+		</footer>
 </div>
 </body>
 

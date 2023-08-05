@@ -5,40 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Orca Robotics</title>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
-	<style type="text/css">
-		.container {
-			display: flex;
-			margin-right: 10px;
-			margin-left: 10px;
-			/*			padding: 10px;*/
-			border: solid;
-			border-width: 1px;
-			border-color: rgb(192, 192, 192);
-			background-color: rgb(240, 255, 255);
-			text-align: left;
-			font-family: Segoe UI;
-			flex-direction: column;
-			margin-bottom: 1em;
-		}
-
-		.heading {
-			padding: 10px;
-			/*			background-color: black;*/
-			/*			color: white;*/
-			color: white;
-			background-color: rgb(67, 107, 149);
-			/*background-color: rgb(42,82,190);*/
-		}
-
-		.textContainer {
-			padding: 10px;
-		}
-
-		.bulletPoint {
-			margin-left: 1em;
-			margin-right: 0.5em;
-		}
-	</style>
 </head>
 <body>
 	<div>
@@ -57,9 +23,10 @@
 		<nav class="navBar">
 			<a href="website1.html" class="active">Home</a>
 			<a href="robotWebsite.html">Robots</a>
-			<a href="">Outreach</a>
+			<a href="outreach.html">Outreach</a>
 			<a href="teamMembers.html">Members</a>
 			<a href="events.html">Events</a>
+    	    <a href="sponsor.html">Sponsor</a>
 			<a href="aboutUs.html">About Us</a>
 		</nav>
 		<div class="content">
@@ -67,7 +34,7 @@
 		<section class="container">
 			<h3 class="heading">Highlights</h3>
 			<div class="textContainer">
-				<p style="margin-bottom: 1em;"><b>From <span class="between" style="font-size: 1.2em;">POWERPLAY:</span></b></p>
+				<p class="highlightHeading"><b>From <span class="between highlightSeason">POWERPLAY:</span></b></p>
 				<p><span class="bulletPoint">&#183;</span><b>Mechanicsville Qualifier, VA:</b> 5-0 in Qualifying Matches, 2nd Seed Captain</p>
 				<p><span class="bulletPoint">&#183;</span><b>DC Qualifier, DC:</b> 5-0 in Qualifying Matches, Winning Alliance Captain</p>
 				<p><span class="bulletPoint">&#183;</span><b>Laurel Qualifier, MD:</b> 5-0 in Qualifying Matches, 1st Seed Captain</p>
@@ -75,43 +42,60 @@
 			</div>
 		</section>
 		<section class="container">
+			<h3 class="heading">Future Events</h3>
+			<div class="textContainer">
+				<p><span class="bulletPoint">&#183;</span><b>Season Kickoff:</b> In September, the new season will start. See the <a href="events.html">events page</a> for more details</p>
+				<p><span class="bulletPoint">&#183;</span><b>First Qualifier:</b> Not known as of now; be sure to regularly check our <a href="events.html">events page</a> for updates!</p>
+				
+			</div>
+		</section>
+		<!-- <section class="container">
 			<h3 class="heading">Contact Us</h3>
 			<p class="text">
-				<!-- We are a robotics team consisting of six people in middle school and high school. Our youngest member is in 7th grade and our oldest is in 9th. Our team was created in the Fall of 2022, bringing together variety of people who all shared one characteristic; the desire to learn. Since then, our team has put in countless hours of hard work to make our current achievements possible. -->
+				
 			</p>
-		</section>
+		</section> -->
 	</div>
 		<footer>
 		<div class="columnFooter">
+			<div class="columnFooterLogo">
+				<a href="website1.html"><img src="Logo.svg" class="footerLogo"/></a>
+				<h1 class="logoName">Orca Robotics</h1>
+			</div>
 			<div>
 				<h4>About Us</h4>
-				<a href="">About Us</a>
-				<a href="">Our Goal</a>
-				<a href="">More Stuff</a>
+				<a href="aboutUs.html">About</a>
+				<a href="robotWebsite.html">Robots</a>
+				<a href="outreach.html">Outreach</a>
+				<a href="teamMembers.html">Team Members</a>
+				<a href="events.html">Events</a>
 			</div>
 			<div>
 				<h4>Contact Us</h4>
-				<a href="">Email</a>
+				<a href="mailto:orcarobotics2022@gmail.com">Email</a>
 				<a href="">Form</a>
+				<a href="sponsor.html">Sponsor Us</a>
 			</div>
 			<div>
 				<h4>Social Media</h4>
-				<a href="">Instagram</a>
+				<a href="https://www.instagram.com/orca_robotics_21587/">Instagram</a>
 				<a href="">Facebook</a>
 				<a href="">Youtube</a>
 				<a href="">Twitter</a>
 			</div>
 		</div>
-			<div class="siteInfo">
-				<section>
-				<a href="">Orca Robotics</a>
-				<div></div>
-				<img src="">
-				<img src="">
-				<img src="">
-				<img src="">
-				</section>
-			</div>
+		<div class="siteInfo">
+			<section class="socialMediaContainer">
+					<a href="https://www.instagram.com/orca_robotics_21587/"><img class="socialMediaLogo" src="instagram.svg"></a>
+					<a href=""><img class="socialMediaLogo" src="facebook.svg"></a>
+					<a href=""><img class="socialMediaLogo" src="youtube.svg"></a>
+					<a href=""><img class="socialMediaLogo" src="twitter.svg"></a>
+			</section>
+			<section class="copyright">
+				<p>&copy; Orca Robotics 2023</p>
+			</section>
+		</div>
+		
 		</footer>
 	</div>
 </body>
