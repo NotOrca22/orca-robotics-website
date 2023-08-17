@@ -247,6 +247,8 @@ footer div a:hover {
 	border: solid;
 	border-width: 1px;
 	border-color: rgb(220, 220, 220);
+	/* justify-content: space-between; */
+	/* align-items: flex-end; */
 	background-color: rgb(230, 245, 245);
 	text-align: right;
 	font-family: Segoe UI;
@@ -578,3 +580,26 @@ footer div a:hover {
 	background-color: rgb(76, 110, 162);
 }
 
+@media only screen and (max-width: 715px) {
+	.bannerHeading {
+		font-size: 2.6em;
+	}
+  }
+
+  @media only screen and (max-width: 660px) {
+	.bannerHeading {
+		font-size: 2em;
+	}
+  }
+
+  @media only screen and (max-width: 570px) {
+	.bannerHeading {
+		font-size: 1.8em;
+	}
+  }
+
+  @media only screen and (max-width: 540px) {
+	.bannerHeading {
+		font-size: 1.3em;
+	}
+  }
