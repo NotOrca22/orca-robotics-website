@@ -36,12 +36,15 @@ h1 {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 3em;
+	/* max-width: 50vw; */
+	/* max-height: 8vw; */
 	text-align: center;
 	/*			background-color: rgb(204, 204, 255);*/
 	flex-grow: 1;
 	height: 100%;
 	/*			padding-top: 0.3em;*/
 	font-family: serif;
+	margin-bottom: 1px;
 }
 
 .buttons {
@@ -90,6 +93,10 @@ h1 {
 	padding-bottom: 0.5em;
 }
 
+.signUp:hover {
+	background-color: rgb(135, 206, 235);
+}
+
 .navBar {
 	padding-left: 20px;
 	display: flex;
@@ -135,11 +142,75 @@ nav a {
 	margin: 1em;
 }
 
+.adminContent {
+	display: flex;
+	flex-direction: row;
+	font-family: Segoe UI;
+}
+/* 
+.accounts {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin: 0;
+ 	padding: 0;
+  	overflow: hidden;
+}
+
+.accountItem {
+	display: inline;
+	text-align: center;
+ 	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+ 	text-decoration: none;
+	font-size: 16px;
+	font-weight: normal;
+} */
+
+.accountData {
+	margin-left: 20px;
+}
+
+#customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  }
+  
+  #customers td, #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #customers tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+  
+  #customers tr:hover {
+	background-color: #ddd;
+}
+  
+  #customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: rgb(176, 196, 222);
+	color: white;
+  }
+
+.actions {
+	width: 30px;
+}
+
 footer {
 	background-color: rgb(182, 208, 226);
 	display: flex;
 	flex-direction: column;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	font-family: Segoe UI;
 }
 
@@ -240,10 +311,20 @@ footer div a:hover {
 	border: solid;
 	border-width: 1px;
 	border-color: rgb(220, 220, 220);
+	/* justify-content: space-between; */
+	/* align-items: flex-end; */
 	background-color: rgb(230, 245, 245);
 	text-align: right;
 	font-family: Segoe UI;
 	box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
+}
+
+.member-even > .memberImage {
+	flex: 1 0 0%;
+}
+
+.member-even > .textRole {
+	flex: 1 0 80%;
 }
 
 .imageCW {
@@ -298,6 +379,8 @@ footer div a:hover {
 .textContainer {
 	padding: 10px;
 }
+
+
 
 .bulletPoint {
 	margin-left: 1em;
@@ -504,3 +587,108 @@ footer div a:hover {
 .outreachSeason {
 	font-size: 1.5em;
 }
+
+.login {
+	text-align: center;
+	/* background-color:rgb(115, 147, 179); */
+	background-color: white;
+	width: 20vw;
+	height: 20vw;
+	/* box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388); */
+	border-radius: 50px;
+	border: solid 1px rgb(220, 220, 220);
+	margin: auto;
+}
+
+.input1 {
+	margin: auto;
+}
+
+.input2 {
+	margin-top: 20px;
+}
+
+.loginInput {
+	margin-top: 76.5px;
+}
+
+.forgotPassword {
+	color: rgb(96, 130, 182);
+	text-decoration: none;
+	font-family: Segoe UI;
+	font-size: 0.9em;
+	transition: color 0.2s;
+}
+
+.forgotPassword:hover {
+	color: black;
+}
+
+.input {
+	/* padding: 10px; */
+	height: 31px;
+	padding-left: 1em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	width: 13vw;
+}
+
+.loginButton {
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	padding-left: 8.5em;
+	padding-right: 8.5em;
+	border-radius: 17.5px;
+	font-family: sans-serif;
+	border: none;
+	margin-top: 0.5em;
+	background-color: rgb(96, 130, 182);
+	color: white;
+	font-size: 0.8em;
+	margin-bottom: 1em;
+	transition: color 0.15s;
+	cursor: pointer;
+}
+
+.loginButton:hover {
+	background-color: rgb(76, 110, 162);
+}
+
+.sideBar {
+	display: flex;
+	flex-direction: column;
+	background-color: aliceblue;
+	width: 100px;
+}
+
+.sideBarChild {
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	border-bottom: solid 1px black;
+	border-right: solid 1px black;
+}
+
+@media only screen and (max-width: 715px) {
+	.bannerHeading {
+		font-size: 2.6em;
+	}
+  }
+
+  @media only screen and (max-width: 660px) {
+	.bannerHeading {
+		font-size: 2em;
+	}
+  }
+
+  @media only screen and (max-width: 570px) {
+	.bannerHeading {
+		font-size: 1.8em;
+	}
+  }
+
+  @media only screen and (max-width: 540px) {
+	.bannerHeading {
+		font-size: 1.3em;
+	}
+  }
