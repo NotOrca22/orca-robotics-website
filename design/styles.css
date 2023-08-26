@@ -142,11 +142,75 @@ nav a {
 	margin: 1em;
 }
 
+.adminContent {
+	display: flex;
+	flex-direction: row;
+	font-family: Segoe UI;
+}
+/* 
+.accounts {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin: 0;
+ 	padding: 0;
+  	overflow: hidden;
+}
+
+.accountItem {
+	display: inline;
+	text-align: center;
+ 	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+ 	text-decoration: none;
+	font-size: 16px;
+	font-weight: normal;
+} */
+
+.accountData {
+	margin-left: 20px;
+}
+
+#customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  }
+  
+  #customers td, #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #customers tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+  
+  #customers tr:hover {
+	background-color: #ddd;
+}
+  
+  #customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: rgb(176, 196, 222);
+	color: white;
+  }
+
+.actions {
+	width: 30px;
+}
+
 footer {
 	background-color: rgb(182, 208, 226);
 	display: flex;
 	flex-direction: column;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	font-family: Segoe UI;
 }
 
@@ -255,6 +319,14 @@ footer div a:hover {
 	box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.388);
 }
 
+.member-even > .memberImage {
+	flex: 1 0 0%;
+}
+
+.member-even > .textRole {
+	flex: 1 0 80%;
+}
+
 .imageCW {
 	float: left;
 	margin-right: 10px;
@@ -307,6 +379,8 @@ footer div a:hover {
 .textContainer {
 	padding: 10px;
 }
+
+
 
 .bulletPoint {
 	margin-left: 1em;
@@ -578,6 +652,21 @@ footer div a:hover {
 
 .loginButton:hover {
 	background-color: rgb(76, 110, 162);
+}
+
+.sideBar {
+	display: flex;
+	flex-direction: column;
+	background-color: aliceblue;
+	width: 100px;
+}
+
+.sideBarChild {
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	border-bottom: solid 1px black;
+	border-right: solid 1px black;
 }
 
 @media only screen and (max-width: 715px) {
